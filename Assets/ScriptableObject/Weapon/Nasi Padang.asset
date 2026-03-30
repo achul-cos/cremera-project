@@ -16,16 +16,40 @@ MonoBehaviour:
   weaponDescription: Nasi nya orang Padangkik!! Mi Abuih Ciek Uda = 15k, Mi Rebus
     Satu Bang = 30k, wkwkwkwkwk
   weaponType: 0
-  criticalChance: 0
-  criticalDamage: 1
-  idleAttackPoint: 1
-  idleCooldown: 0.1
-  idleAttackArea: 0
-  idleProjectileRange: 0
-  idleAttackRange: 0
-  manualAttackPoint: 1
-  manualCooldown: 0.1
-  manualAttackArea: 0.1
-  manualProjectileRange: 0
-  manualAttackRange: 0
-  prefab: {fileID: 0}
+  weaponCriticalChance: 0
+  weaponCriticalDamage: 0
+  weaponIdleAttackPoint: 0
+  weaponIdleCooldown: 0
+  weaponIdleAttackArea: 0
+  weaponIdleProjectileRange: 0
+  weaponIdleAttackRange: 0
+  weaponManualAttackPoint: 0
+  weaponManualCooldown: 0
+  weaponManualAttackArea: 0
+  weaponManualProjectileRange: 0
+  weaponManualAttackRange: 0
+  weaponAreaMaxDamageBuff: 3
+  weaponAreaMaxCooldownReduction: 0.6
+  weaponAreaMaxCriticalChance: 0.6
+  weaponAreaMaxCriticalDamage: 3
+  weaponAreaMaxAttackAreaBuff: 2
+  weaponProjectileMaxDamageBuff: 2
+  weaponProjectileMaxCooldownReduction: 0.8
+  weaponProjectileMaxCriticalChance: 0.8
+  weaponProjectileMaxCriticalDamage: 2
+  weaponProjectileMaxAttackRangeBuff: 2
+  weaponProjectileMaxProjectileRangeBuff: 2.5
+  weaponAreaNormalDamageBuff: 1.8
+  weaponAreaNormalCooldownReduction: 0.35
+  weaponAreaNormalCriticalChance: 0.4
+  weaponAreaNormalCriticalDamage: 2
+  weaponAreaNormalAttackAreaBuff: 1.5
+  weaponProjectileNormalDamageBuff: 1.4
+  weaponProjectileNormalCooldownReduction: 0.5
+  weaponProjectileNormalCriticalChance: 0.4
+  weaponProjectileNormalCriticalDamage: 1.4
+  weaponProjectileNormalAttackRangeBuff: 1.5
+  weaponProjectileNormalProjectileRangeBuff: 1.5
+  weaponUpgrade:
+  - weaponIsUnlocked: 0
+  weaponPrefab: {fileID: 0}
