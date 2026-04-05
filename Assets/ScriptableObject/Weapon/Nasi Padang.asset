@@ -12,44 +12,135 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6334b99241f88644b97df101be37a5d5, type: 3}
   m_Name: Nasi Padang
   m_EditorClassIdentifier: 
-  weaponName: Nasi Goreng
-  weaponDescription: Nasi nya orang Padangkik!! Mi Abuih Ciek Uda = 15k, Mi Rebus
-    Satu Bang = 30k, wkwkwkwkwk
-  weaponType: 0
-  weaponCriticalChance: 0
-  weaponCriticalDamage: 0
-  weaponIdleAttackPoint: 0
-  weaponIdleCooldown: 0
-  weaponIdleAttackArea: 0
-  weaponIdleProjectileRange: 0
-  weaponIdleAttackRange: 0
-  weaponManualAttackPoint: 0
-  weaponManualCooldown: 0
-  weaponManualAttackArea: 0
-  weaponManualProjectileRange: 0
-  weaponManualAttackRange: 0
-  weaponAreaMaxDamageBuff: 3
+  weaponName: Nasi Padang
+  weaponDescription: Nasi Padang enak sekali.
+  weaponType: 1
+  weaponCriticalChance: 0.1
+  weaponCriticalDamage: 1.2
+  weaponIdleAttackPoint: 200
+  weaponIdleCooldown: 5
+  weaponIdleAttackArea: 2
+  weaponIdleProjectileRange: 1.5
+  weaponIdleAttackRange: 10
+  weaponManualAttackPoint: 350
+  weaponManualCooldown: 4
+  weaponManualAttackArea: 3
+  weaponManualProjectileRange: 1
+  weaponManualAttackRange: 13
+  weaponAreaMaxDamageBuff: 2
   weaponAreaMaxCooldownReduction: 0.6
   weaponAreaMaxCriticalChance: 0.6
   weaponAreaMaxCriticalDamage: 3
-  weaponAreaMaxAttackAreaBuff: 2
-  weaponProjectileMaxDamageBuff: 2
+  weaponAreaMaxAttackAreaBuff: 1
+  weaponProjectileMaxDamageBuff: 1
   weaponProjectileMaxCooldownReduction: 0.8
   weaponProjectileMaxCriticalChance: 0.8
   weaponProjectileMaxCriticalDamage: 2
   weaponProjectileMaxAttackRangeBuff: 2
   weaponProjectileMaxProjectileRangeBuff: 2.5
-  weaponAreaNormalDamageBuff: 1.8
+  weaponAreaNormalDamageBuff: 0.8
   weaponAreaNormalCooldownReduction: 0.35
   weaponAreaNormalCriticalChance: 0.4
   weaponAreaNormalCriticalDamage: 2
-  weaponAreaNormalAttackAreaBuff: 1.5
-  weaponProjectileNormalDamageBuff: 1.4
+  weaponAreaNormalAttackAreaBuff: 0.5
+  weaponProjectileNormalDamageBuff: 0.4
   weaponProjectileNormalCooldownReduction: 0.5
   weaponProjectileNormalCriticalChance: 0.4
   weaponProjectileNormalCriticalDamage: 1.4
   weaponProjectileNormalAttackRangeBuff: 1.5
   weaponProjectileNormalProjectileRangeBuff: 1.5
   weaponUpgrade:
-  - weaponIsUnlocked: 0
+  - weaponUpgradeName: Level 0
+    weaponIslocked: 1
+    weaponType: 1
+    weaponDamageBuffScale: 0
+    weaponDamageBuffPreview: 0
+    weaponCooldownReductionScale: 0
+    weaponCooldownReductionPreview: 0
+    WeaponCriticalChanceBuffScale: 0
+    WeaponCriticalChanceBuffPreview: 0
+    WeaponCriticalDamageBuffScale: 0
+    WeaponCriticalDamageBuffPreview: 0
+    weaponAttackAreaBuffScale: 0
+    weaponAttackAreaBuffPreview: 0
+    weaponProjectileRangeBuffScale: 0
+    weaponProjectileRangeBuffPreview: 0
+    weaponAttackRangeBuffScale: 0
+    weaponAttackRangeBuffPreview: 0
+    weaponCriticalChancePreview: 0.1
+    weaponCriticalDamagePreview: 1.2
+    weaponIdleAttackCriticalPointPreview: 240
+    weaponManualAttackCriticalPointPreview: 420
+    weaponIdleAttackPointBuffPreview: 200
+    weaponIdleCooldownBuffPreview: 5
+    weaponIdleAttackAreaBuffPreview: 0
+    weaponIdleProjectileRangeBuffPreview: 1.5
+    weaponIdleAttackRangeBuffPreview: 10
+    weaponManualAttackPointBuffPreview: 350
+    weaponManualCooldownBuffPreview: 4
+    weaponManualAttackAreaBuffPreview: 0
+    weaponManualProjectileRangeBuffPreview: 1
+    weaponManualAttackRangeBuffPreview: 13
+  - weaponUpgradeName: Level 1
+    weaponIslocked: 0
+    weaponType: 1
+    weaponDamageBuffScale: 0
+    weaponDamageBuffPreview: 0
+    weaponCooldownReductionScale: 0
+    weaponCooldownReductionPreview: 0
+    WeaponCriticalChanceBuffScale: 0
+    WeaponCriticalChanceBuffPreview: 0
+    WeaponCriticalDamageBuffScale: 0
+    WeaponCriticalDamageBuffPreview: 0
+    weaponAttackAreaBuffScale: 0
+    weaponAttackAreaBuffPreview: 0
+    weaponProjectileRangeBuffScale: 1
+    weaponProjectileRangeBuffPreview: 1.5
+    weaponAttackRangeBuffScale: 1
+    weaponAttackRangeBuffPreview: 1.5
+    weaponCriticalChancePreview: 0.1
+    weaponCriticalDamagePreview: 1.2
+    weaponIdleAttackCriticalPointPreview: 240
+    weaponManualAttackCriticalPointPreview: 420
+    weaponIdleAttackPointBuffPreview: 200
+    weaponIdleCooldownBuffPreview: 5
+    weaponIdleAttackAreaBuffPreview: 0
+    weaponIdleProjectileRangeBuffPreview: 3.75
+    weaponIdleAttackRangeBuffPreview: 25
+    weaponManualAttackPointBuffPreview: 350
+    weaponManualCooldownBuffPreview: 4
+    weaponManualAttackAreaBuffPreview: 0
+    weaponManualProjectileRangeBuffPreview: 2.5
+    weaponManualAttackRangeBuffPreview: 32.5
+  - weaponUpgradeName: Level 2
+    weaponIslocked: 0
+    weaponType: 1
+    weaponDamageBuffScale: 1
+    weaponDamageBuffPreview: 0.4
+    weaponCooldownReductionScale: 0
+    weaponCooldownReductionPreview: 0
+    WeaponCriticalChanceBuffScale: 0
+    WeaponCriticalChanceBuffPreview: 0
+    WeaponCriticalDamageBuffScale: 0
+    WeaponCriticalDamageBuffPreview: 0
+    weaponAttackAreaBuffScale: 0
+    weaponAttackAreaBuffPreview: 0
+    weaponProjectileRangeBuffScale: 1
+    weaponProjectileRangeBuffPreview: 1.5
+    weaponAttackRangeBuffScale: 1
+    weaponAttackRangeBuffPreview: 1.5
+    weaponCriticalChancePreview: 0.1
+    weaponCriticalDamagePreview: 1.2
+    weaponIdleAttackCriticalPointPreview: 336
+    weaponManualAttackCriticalPointPreview: 588
+    weaponIdleAttackPointBuffPreview: 280
+    weaponIdleCooldownBuffPreview: 5
+    weaponIdleAttackAreaBuffPreview: 0
+    weaponIdleProjectileRangeBuffPreview: 3.75
+    weaponIdleAttackRangeBuffPreview: 25
+    weaponManualAttackPointBuffPreview: 490
+    weaponManualCooldownBuffPreview: 4
+    weaponManualAttackAreaBuffPreview: 0
+    weaponManualProjectileRangeBuffPreview: 2.5
+    weaponManualAttackRangeBuffPreview: 32.5
   weaponPrefab: {fileID: 0}

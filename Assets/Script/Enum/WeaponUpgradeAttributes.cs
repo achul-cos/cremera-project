@@ -1,0 +1,13 @@
+public enum WeaponUpgradeAttributes
+{
+    ATTACK_POINT,
+    CRITICAL_CHANCE,
+    CRITICAL_DAMAGE,
+    COOLDOWN,
+    PROJECTILE_RANGE,
+    ATTACK_RANGE,
+    ATTACK_AREA,
+    ELEMENT_I,
+    ELEMENT_II,
+    ELEMENT_III,
+}
