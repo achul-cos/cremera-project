@@ -52,6 +52,8 @@ MonoBehaviour:
   weaponUpgrade:
   - weaponUpgradeName: Level 0
     weaponIslocked: 1
+    weaponUpgradeRegionLock: 0
+    weaponUpgradeAttributes: 
     weaponType: 1
     weaponDamageBuffScale: 0
     weaponDamageBuffPreview: 0
@@ -81,39 +83,16 @@ MonoBehaviour:
     weaponManualAttackAreaBuffPreview: 0
     weaponManualProjectileRangeBuffPreview: 1
     weaponManualAttackRangeBuffPreview: 13
+    weaponUpgradeNewPrefab: {fileID: 0}
+    weaponUpgradeNewProjectilePrefab: {fileID: 0}
+    weaponUpgradeCost: 0
+    weaponIngamePrice: 0
+    weaponUpgradeElementI: 0
+    weaponUpgradeElementII: 0
   - weaponUpgradeName: Level 1
     weaponIslocked: 0
-    weaponType: 1
-    weaponDamageBuffScale: 0
-    weaponDamageBuffPreview: 0
-    weaponCooldownReductionScale: 0
-    weaponCooldownReductionPreview: 0
-    WeaponCriticalChanceBuffScale: 0
-    WeaponCriticalChanceBuffPreview: 0
-    WeaponCriticalDamageBuffScale: 0
-    WeaponCriticalDamageBuffPreview: 0
-    weaponAttackAreaBuffScale: 0
-    weaponAttackAreaBuffPreview: 0
-    weaponProjectileRangeBuffScale: 1
-    weaponProjectileRangeBuffPreview: 1.5
-    weaponAttackRangeBuffScale: 1
-    weaponAttackRangeBuffPreview: 1.5
-    weaponCriticalChancePreview: 0.1
-    weaponCriticalDamagePreview: 1.2
-    weaponIdleAttackCriticalPointPreview: 240
-    weaponManualAttackCriticalPointPreview: 420
-    weaponIdleAttackPointBuffPreview: 200
-    weaponIdleCooldownBuffPreview: 5
-    weaponIdleAttackAreaBuffPreview: 0
-    weaponIdleProjectileRangeBuffPreview: 3.75
-    weaponIdleAttackRangeBuffPreview: 25
-    weaponManualAttackPointBuffPreview: 350
-    weaponManualCooldownBuffPreview: 4
-    weaponManualAttackAreaBuffPreview: 0
-    weaponManualProjectileRangeBuffPreview: 2.5
-    weaponManualAttackRangeBuffPreview: 32.5
-  - weaponUpgradeName: Level 2
-    weaponIslocked: 0
+    weaponUpgradeRegionLock: 1
+    weaponUpgradeAttributes: 0200000000000000
     weaponType: 1
     weaponDamageBuffScale: 1
     weaponDamageBuffPreview: 0.4
@@ -121,26 +100,72 @@ MonoBehaviour:
     weaponCooldownReductionPreview: 0
     WeaponCriticalChanceBuffScale: 0
     WeaponCriticalChanceBuffPreview: 0
-    WeaponCriticalDamageBuffScale: 0
-    WeaponCriticalDamageBuffPreview: 0
+    WeaponCriticalDamageBuffScale: 1
+    WeaponCriticalDamageBuffPreview: 1.4
     weaponAttackAreaBuffScale: 0
     weaponAttackAreaBuffPreview: 0
-    weaponProjectileRangeBuffScale: 1
-    weaponProjectileRangeBuffPreview: 1.5
-    weaponAttackRangeBuffScale: 1
-    weaponAttackRangeBuffPreview: 1.5
+    weaponProjectileRangeBuffScale: 0
+    weaponProjectileRangeBuffPreview: 0
+    weaponAttackRangeBuffScale: 0
+    weaponAttackRangeBuffPreview: 0
     weaponCriticalChancePreview: 0.1
-    weaponCriticalDamagePreview: 1.2
-    weaponIdleAttackCriticalPointPreview: 336
-    weaponManualAttackCriticalPointPreview: 588
+    weaponCriticalDamagePreview: 2.6
+    weaponIdleAttackCriticalPointPreview: 728
+    weaponManualAttackCriticalPointPreview: 1274
     weaponIdleAttackPointBuffPreview: 280
     weaponIdleCooldownBuffPreview: 5
     weaponIdleAttackAreaBuffPreview: 0
-    weaponIdleProjectileRangeBuffPreview: 3.75
-    weaponIdleAttackRangeBuffPreview: 25
+    weaponIdleProjectileRangeBuffPreview: 1.5
+    weaponIdleAttackRangeBuffPreview: 10
     weaponManualAttackPointBuffPreview: 490
     weaponManualCooldownBuffPreview: 4
     weaponManualAttackAreaBuffPreview: 0
-    weaponManualProjectileRangeBuffPreview: 2.5
-    weaponManualAttackRangeBuffPreview: 32.5
+    weaponManualProjectileRangeBuffPreview: 1
+    weaponManualAttackRangeBuffPreview: 13
+    weaponUpgradeNewPrefab: {fileID: 0}
+    weaponUpgradeNewProjectilePrefab: {fileID: 0}
+    weaponUpgradeCost: 1
+    weaponIngamePrice: 1
+    weaponUpgradeElementI: 0
+    weaponUpgradeElementII: 0
+  - weaponUpgradeName: Level 2
+    weaponIslocked: 0
+    weaponUpgradeRegionLock: 3
+    weaponUpgradeAttributes: 03000000
+    weaponType: 1
+    weaponDamageBuffScale: 1
+    weaponDamageBuffPreview: 0.4
+    weaponCooldownReductionScale: 0.1
+    weaponCooldownReductionPreview: 0.05
+    WeaponCriticalChanceBuffScale: 0
+    WeaponCriticalChanceBuffPreview: 0
+    WeaponCriticalDamageBuffScale: 1
+    WeaponCriticalDamageBuffPreview: 1.4
+    weaponAttackAreaBuffScale: 0
+    weaponAttackAreaBuffPreview: 0
+    weaponProjectileRangeBuffScale: 0
+    weaponProjectileRangeBuffPreview: 0
+    weaponAttackRangeBuffScale: 0
+    weaponAttackRangeBuffPreview: 0
+    weaponCriticalChancePreview: 0.1
+    weaponCriticalDamagePreview: 2.6
+    weaponIdleAttackCriticalPointPreview: 728
+    weaponManualAttackCriticalPointPreview: 1274
+    weaponIdleAttackPointBuffPreview: 280
+    weaponIdleCooldownBuffPreview: 4.75
+    weaponIdleAttackAreaBuffPreview: 0
+    weaponIdleProjectileRangeBuffPreview: 1.5
+    weaponIdleAttackRangeBuffPreview: 10
+    weaponManualAttackPointBuffPreview: 490
+    weaponManualCooldownBuffPreview: 3.8
+    weaponManualAttackAreaBuffPreview: 0
+    weaponManualProjectileRangeBuffPreview: 1
+    weaponManualAttackRangeBuffPreview: 13
+    weaponUpgradeNewPrefab: {fileID: 0}
+    weaponUpgradeNewProjectilePrefab: {fileID: 0}
+    weaponUpgradeCost: 1
+    weaponIngamePrice: 1
+    weaponUpgradeElementI: 1
+    weaponUpgradeElementII: 1
   weaponPrefab: {fileID: 0}
+  weaponProjectilePrefab: {fileID: 0}

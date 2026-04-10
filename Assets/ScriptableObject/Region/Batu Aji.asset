@@ -16,10 +16,25 @@ MonoBehaviour:
   regionDescription: Kawasan padat pemungkiman pada Kota Batam, sebagai salah satu
     kawasan dengan tingkat kesulitan mudah untuk mengawali perjalanan kamu.
   regionPrefabs: {fileID: 0}
-  regionEnemySmall: {fileID: 11400000, guid: da0d9af0c31f57448b5946aaf52f792b, type: 2}
-  regionEnemySmallQty: 0
-  regionEnemyMedium: {fileID: 11400000, guid: 0dc8b20365bff364fb3eb13cd9ef09be, type: 2}
-  regionEnemyMediumQty: 0
-  regionEnemyBig: {fileID: 11400000, guid: eb7373c45f9eded4297c68e7a2d4b2cf, type: 2}
-  regionEnemyBigQty: 0
-  regionCheckPoints: []
+  enemySpawnFrequency: 50
+  enemySpawnRadius: 15.04
+  regionEnemySmallList:
+  - enemy: {fileID: 11400000, guid: da0d9af0c31f57448b5946aaf52f792b, type: 2}
+    enemySpawnChance: 0
+    enemySpawnChanceDistribution: 0
+  - enemy: {fileID: 11400000, guid: 286667ae29831a44294e4fefe6c85d63, type: 2}
+    enemySpawnChance: 0
+    enemySpawnChanceDistribution: 0
+  regionEnemyMediumList:
+  - enemy: {fileID: 11400000, guid: 0dc8b20365bff364fb3eb13cd9ef09be, type: 2}
+    enemySpawnChance: 0
+    enemySpawnChanceDistribution: 0
+  regionEnemyBigList:
+  - enemy: {fileID: 11400000, guid: eb7373c45f9eded4297c68e7a2d4b2cf, type: 2}
+    enemySpawnChance: 0
+    enemySpawnChanceDistribution: 0
+  regionCheckPoints:
+  - name: 
+    roadPoints: []
+    enemySpawnPoints:
+    - {fileID: 0}

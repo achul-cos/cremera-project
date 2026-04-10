@@ -442,7 +442,8 @@ MonoBehaviour:
   - transform: {fileID: 1838111368}
     flipX: 1
   checkPoints:
-  - roadPoints:
+  - name: 
+    roadPoints:
     - transform: {fileID: 917269551}
       flipX: 1
     - transform: {fileID: 1010561565}
@@ -451,13 +452,16 @@ MonoBehaviour:
       flipX: 1
     - transform: {fileID: 208145429}
       flipX: 0
-  - roadPoints:
+    enemySpawnPoints: []
+  - name: 
+    roadPoints:
     - transform: {fileID: 1249385634}
       flipX: 1
     - transform: {fileID: 982754682}
       flipX: 0
     - transform: {fileID: 1838111368}
       flipX: 1
+    enemySpawnPoints: []
   maxSpeed: 2
   acceleration: 3
   deceleration: 1
@@ -5387,7 +5391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062081604}
   m_Layer: 0
-  m_Name: PathContainer
+  m_Name: RoadPointsRegion_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
